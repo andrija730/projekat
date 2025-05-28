@@ -14,7 +14,31 @@ nav{
 .hero-item {
   height: 100vh;
 }
-
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 30px 40px;
+    border-radius: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+ 
+}
+.hero-overlay h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: none;
+}
+.hero-overlay p {
+    font-size: 1.2rem;
+    color: #f1f1f1;
+}
 .hero-image {
   background-image: url("slika.jpg");
   height: 100%;
@@ -26,17 +50,7 @@ nav{
    position: relative;
  
 }
-.hero-text{
-  background-color: rgba(0, 0, 0, 0.4);
-    padding: 30px;
-    border-radius: 30px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
-}
+
 
 .btn-usluge{
   background-color: #439ed7;
@@ -80,3 +94,4 @@ hr{
   border-top: 4px solid rgb(14, 24, 24);
   margin-bottom: 50px;
 }
+
