@@ -95,3 +95,16 @@ hr{
   margin-bottom: 50px;
 }
 
+.main{
+  margin-top: 70px;
+}
+.oblasti{
+  font-weight: bold;
+   font-size: 27px;
+    margin-bottom: 0.2em;
+}
+.opis{
+  font-size: 17px;
+    margin-top: 0;
+
+}
